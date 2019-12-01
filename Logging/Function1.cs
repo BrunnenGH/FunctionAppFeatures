@@ -25,6 +25,7 @@ namespace Logging
             log.LogError("Function1 5. Default configuration. LogError");
 
             var o = new Class1(log);
+            o.Log();
 
             return new OkObjectResult("ok");
         }
