@@ -9,7 +9,7 @@ namespace MyLibrary
 
         public Class1(ILogger log)
         {
-            _log = log;
+            _log = (ILogger<Class1>) log;
         }
 
         public void Log()
